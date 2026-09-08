@@ -5,18 +5,18 @@ about:
   head: 48cc562
   archived: false
   latestVersion: "8.10.1"
-  collectedAt: 2026-09-08T01:31:34Z
+  collectedAt: 2026-09-08T03:28:08Z
 timeline:
   created: 2009-03-21
   lastCommit: 2026-09-08
   lastRelease: 2026-08-17
 popularity:
-  star: 76268
+  star: 76267
   watcher: 2485
-  fork: 24795
+  fork: 24794
   release: 150
   contributor: 839
-  pullRequest: 8225
+  pullRequest: 8227
   issue: 7067
 language:
   C: 9293545
@@ -34,7 +34,7 @@ recent:
     since: 2026-08-09
     release: 8
     mergedPR: 43
-    openPR: 55
+    openPR: 57
     closedIssue: 4
     openIssue: 13
     commit: 44
@@ -42,7 +42,7 @@ recent:
     since: 2026-07-10
     release: 18
     mergedPR: 108
-    openPR: 86
+    openPR: 88
     closedIssue: 21
     openIssue: 27
     commit: 128
@@ -50,7 +50,7 @@ recent:
     since: 2026-06-10
     release: 18
     mergedPR: 153
-    openPR: 107
+    openPR: 109
     closedIssue: 35
     openIssue: 41
     commit: 205
@@ -58,7 +58,7 @@ recent:
     since: 2026-03-12
     release: 32
     mergedPR: 326
-    openPR: 175
+    openPR: 177
     closedIssue: 80
     openIssue: 69
     commit: 409
@@ -66,7 +66,7 @@ recent:
     since: 2025-09-13
     release: 54
     mergedPR: 587
-    openPR: 221
+    openPR: 223
     closedIssue: 146
     openIssue: 124
     commit: 713
@@ -74,20 +74,20 @@ recent:
     since: 2024-09-18
     release: 80
     mergedPR: 935
-    openPR: 270
+    openPR: 272
     closedIssue: 263
     openIssue: 270
     commit: 1028
 total:
   release: 150
   mergedPR: 4785
-  openPR: 669
+  openPR: 671
   closedIssue: 4806
   openIssue: 2261
   commit: 13280
 ---
 path: /home/runner/.x-repo/github.com/redis/redis
-collectedAt: 2026-09-08T01:31:55Z
+collectedAt: 2026-09-08T03:28:37Z
 loc:
   C:
     code: 226012
