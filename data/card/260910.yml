@@ -7,7 +7,7 @@ about:
   latestVersion: "8.10.1"
   latestRelease: "8.10.1"
   latestPrerelease: "8.10-rc2"
-  collectedAt: 2026-09-10T15:57:55Z
+  collectedAt: 2026-09-10T20:14:17Z
 timeline:
   created: 2009-03-21
   lastCommit: 2026-09-10
@@ -15,9 +15,9 @@ timeline:
   lastRelease: 2026-08-17
   lastPrerelease: 2026-07-20
 popularity:
-  star: 76306
+  star: 76309
   watcher: 2485
-  fork: 24796
+  fork: 24797
   release: 150
   contributor: 839
   pullRequest: 8239
@@ -91,7 +91,7 @@ total:
   commit: 13284
 ---
 path: /home/runner/.x-repo/github.com/redis/redis
-collectedAt: 2026-09-10T15:58:23Z
+collectedAt: 2026-09-10T20:14:45Z
 loc:
   C:
     code: 226021
