@@ -12,41 +12,7 @@ For developers, who are building real-time data-driven applications, Redis is th
 x install redis
 ```
 
-## Source
-
-- **Upstream**: <https://github.com/redis/redis>
-- **Homepage**: <http://redis.io>
-- **License**: NOASSERTION
-
-## Release
-
-- **Latest**: `8.10.1` (2026-08-17)
-- **Last commit**: 2026-09-10
-- **Assets in release**: 1
-
-## Release assets
-
-| Asset | Size | Target |
-|-------|-----:|--------|
-| [redis-full.tar.gz](https://github.com/redis/redis/releases/download/8.10.1/redis-full.tar.gz) | 20.6 MiB | `native/unknown` |
-
-## Popularity
-
-- **Stars**: 76,306 · **Forks**: 24,796 · **Open issues**: 7,068 · **Contributors**: 839
-
-## Totals (cumulative)
-
-- **Releases**: 150 · **Merged PRs**: 4789 · **Open PRs**: 677 · **Closed issues**: 4807 · **Open issues**: 2261 · **Commits**: 13284
-
-## Recent activity
-
-| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
-|---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 8 | 45 | 60 | 4 | 12 | 49 |
-| 90d | 2026-06-12 | 18 | 155 | 113 | 36 | 40 | 210 |
-| 360d | 2025-09-15 | 54 | 588 | 229 | 146 | 124 | 718 |
-
-## Code size
+## Code insight
 
 Total: **410,498** lines of code across **1483** files in the top 5 languages.
 
@@ -68,6 +34,60 @@ Lowest-scoring checks:
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
+## Source
+
+- **Upstream**: <https://github.com/redis/redis>
+- **Homepage**: <http://redis.io>
+- **License**: NOASSERTION
+
+## Release
+
+- **Latest**: `8.10.1` (2026-08-17)
+- **Last commit**: 2026-09-10
+- **Assets in release**: 1
+
+## Popularity
+
+- **Stars**: 76,309 · **Forks**: 24,797 · **Open issues**: 7,068 · **Contributors**: 839
+
+## Totals (cumulative)
+
+- **Releases**: 150 · **Merged PRs**: 4789 · **Open PRs**: 677 · **Closed issues**: 4807 · **Open issues**: 2261 · **Commits**: 13284
+
+## Recent activity
+
+| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 8 | 45 | 60 | 4 | 12 | 49 |
+| last60d | 2026-07-12 | 18 | 110 | 92 | 21 | 27 | 133 |
+| 90d | 2026-06-12 | 18 | 155 | 113 | 36 | 40 | 210 |
+| last180d | 2026-03-14 | 32 | 328 | 183 | 81 | 69 | 414 |
+| 360d | 2025-09-15 | 54 | 588 | 229 | 146 | 124 | 718 |
+| last720d | 2024-09-20 | 80 | 938 | 278 | 263 | 270 | 1030 |
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [redis-full.tar.gz](https://github.com/redis/redis/releases/download/8.10.1/redis-full.tar.gz) | 20.6 MiB | `native/unknown` |
+
+## Distribution status
+
+Reported by **262** distros on [repology.org](https://repology.org/project/redis). **18** are ✅ on the latest upstream release, **159** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `8.0.6` | ⚠️ outdated |
+| Debian 14 | `8.0.6` | ⚠️ outdated |
+| Debian 13 | `8.0.2` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `8.0.5` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `7.0.15` | ⚠️ outdated |
+| Homebrew | `8.10.1` | ✅ latest |
+| Nix unstable | `8.10.1` | ✅ latest |
+| Void | `7.0.8` | ⚠️ outdated |
+| Alpine edge | `8.8.1` | ⚠️ outdated |
+| openSUSE Tumbleweed | `8.10.1` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for redis lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `redis` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -77,4 +97,4 @@ Install metadata for redis lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T15:58:33Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T20:14:51Z._
