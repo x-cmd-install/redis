@@ -7,7 +7,7 @@ about:
   latestVersion: "8.10.1"
   latestRelease: "8.10.1"
   latestPrerelease: "8.10-rc2"
-  collectedAt: 2026-09-10T20:14:17Z
+  collectedAt: 2026-09-10T23:41:41Z
 timeline:
   created: 2009-03-21
   lastCommit: 2026-09-10
@@ -15,12 +15,12 @@ timeline:
   lastRelease: 2026-08-17
   lastPrerelease: 2026-07-20
 popularity:
-  star: 76309
-  watcher: 2485
+  star: 76310
+  watcher: 2486
   fork: 24797
   release: 150
   contributor: 839
-  pullRequest: 8239
+  pullRequest: 8240
   issue: 7068
 language:
   C: 9295027
@@ -38,7 +38,7 @@ recent:
     since: 2026-08-11
     release: 8
     mergedPR: 45
-    openPR: 60
+    openPR: 61
     closedIssue: 4
     openIssue: 12
     commit: 49
@@ -46,7 +46,7 @@ recent:
     since: 2026-07-12
     release: 18
     mergedPR: 110
-    openPR: 92
+    openPR: 93
     closedIssue: 21
     openIssue: 27
     commit: 133
@@ -54,7 +54,7 @@ recent:
     since: 2026-06-12
     release: 18
     mergedPR: 155
-    openPR: 113
+    openPR: 114
     closedIssue: 36
     openIssue: 40
     commit: 210
@@ -62,7 +62,7 @@ recent:
     since: 2026-03-14
     release: 32
     mergedPR: 328
-    openPR: 183
+    openPR: 184
     closedIssue: 81
     openIssue: 69
     commit: 414
@@ -70,7 +70,7 @@ recent:
     since: 2025-09-15
     release: 54
     mergedPR: 588
-    openPR: 229
+    openPR: 230
     closedIssue: 146
     openIssue: 124
     commit: 718
@@ -78,20 +78,20 @@ recent:
     since: 2024-09-20
     release: 80
     mergedPR: 938
-    openPR: 278
+    openPR: 279
     closedIssue: 263
     openIssue: 270
     commit: 1030
 total:
   release: 150
   mergedPR: 4789
-  openPR: 677
+  openPR: 678
   closedIssue: 4807
   openIssue: 2261
   commit: 13284
 ---
 path: /home/runner/.x-repo/github.com/redis/redis
-collectedAt: 2026-09-10T20:14:45Z
+collectedAt: 2026-09-10T23:42:04Z
 loc:
   C:
     code: 226021
