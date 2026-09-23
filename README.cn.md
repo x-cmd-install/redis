@@ -4,7 +4,7 @@
 
 For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.
 
-[![x-cmd/install — redis Code Quality Monitoring Repo Card](https://repo.x-cmd.io/redis.svg?lang=zh)](https://x-cmd.com/install/redis)
+[![x-cmd/install — redis Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/redis.svg?lang=zh)](https://x-cmd.com/install/redis)
 
 ## 安装
 
@@ -14,11 +14,11 @@ x install redis
 
 ## 代码洞察
 
-合计: **412,768** 行代码（覆盖前 5 种语言、共 **1495** 个文件）。
+合计: **412,781** 行代码（覆盖前 5 种语言、共 **1495** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| C | 226,660 | 55,677 | 37,306 | 476 |
+| C | 226,673 | 55,686 | 37,306 | 476 |
 | Tcl | 79,603 | 10,360 | 13,595 | 241 |
 | CHeader | 34,906 | 15,535 | 6,539 | 312 |
 | Json | 29,665 | 0 | 9 | 465 |
@@ -43,27 +43,27 @@ x install redis
 ## 发布
 
 - **最新版本**: `8.10.2` (2026-09-17)
-- **最近提交**: 2026-09-22
+- **最近提交**: 2026-09-23
 - **Release 含资产**: 1 个
 
 ## 流行度
 
-- **Star**: 76,437 · **Fork**: 24,812 · **开放 issue**: 7,076 · **贡献者**: 842
+- **Star**: 76,451 · **Fork**: 24,811 · **开放 issue**: 7,081 · **贡献者**: 842
 
 ## 累计统计
 
-- **发布数**: 155 · **已合并 PR**: 4812 · **开放 PR**: 691 · **已关闭 issue**: 4811 · **开放 issue**: 2265 · **提交数**: 13297
+- **发布数**: 155 · **已合并 PR**: 4813 · **开放 PR**: 694 · **已关闭 issue**: 4811 · **开放 issue**: 2270 · **提交数**: 13298
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 5 | 36 | 60 | 3 | 11 | 37 |
-| last60d | 2026-07-24 | 14 | 93 | 96 | 15 | 25 | 109 |
-| 90d | 2026-06-24 | 23 | 163 | 125 | 35 | 36 | 196 |
-| last180d | 2026-03-26 | 36 | 323 | 197 | 82 | 72 | 392 |
-| 360d | 2025-09-27 | 59 | 606 | 243 | 142 | 121 | 728 |
-| last720d | 2024-10-02 | 85 | 950 | 292 | 265 | 272 | 1038 |
+| 30d | 2026-08-24 | 5 | 34 | 60 | 3 | 16 | 38 |
+| last60d | 2026-07-25 | 14 | 93 | 99 | 15 | 31 | 110 |
+| 90d | 2026-06-25 | 23 | 160 | 129 | 35 | 42 | 197 |
+| last180d | 2026-03-27 | 36 | 322 | 198 | 82 | 78 | 393 |
+| 360d | 2025-09-28 | 59 | 603 | 245 | 142 | 127 | 729 |
+| last720d | 2024-10-03 | 82 | 951 | 295 | 265 | 277 | 1039 |
 
 ## Release 资产
 
@@ -80,4 +80,4 @@ redis 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T03:24:09Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T03:25:26Z._
