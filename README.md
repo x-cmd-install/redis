@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 76,579 · **Forks**: 24,828 · **Open issues**: 7,091 · **Contributors**: 847
+- **Stars**: 76,588 · **Forks**: 24,834 · **Open issues**: 7,093 · **Contributors**: 847
 
 ## Totals (cumulative)
 
-- **Releases**: 155 · **Merged PRs**: 4831 · **Open PRs**: 719 · **Closed issues**: 4817 · **Open issues**: 2274 · **Commits**: 13319
+- **Releases**: 155 · **Merged PRs**: 4831 · **Open PRs**: 724 · **Closed issues**: 4817 · **Open issues**: 2276 · **Commits**: 13319
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-04 | 5 | 37 | 72 | 7 | 16 | 37 |
-| last60d | 2026-08-05 | 13 | 90 | 117 | 14 | 30 | 92 |
-| 90d | 2026-07-06 | 23 | 158 | 147 | 30 | 40 | 188 |
-| last180d | 2026-04-07 | 36 | 316 | 214 | 80 | 77 | 396 |
-| 360d | 2025-10-09 | 54 | 605 | 267 | 146 | 127 | 729 |
-| last720d | 2024-10-14 | 82 | 963 | 319 | 269 | 277 | 1053 |
+| 30d | 2026-09-05 | 5 | 37 | 77 | 7 | 18 | 37 |
+| last60d | 2026-08-06 | 13 | 88 | 120 | 13 | 30 | 92 |
+| 90d | 2026-07-07 | 23 | 157 | 152 | 30 | 42 | 188 |
+| last180d | 2026-04-08 | 36 | 313 | 219 | 78 | 79 | 396 |
+| 360d | 2025-10-10 | 54 | 603 | 271 | 145 | 128 | 729 |
+| last720d | 2024-10-15 | 82 | 960 | 324 | 268 | 277 | 1053 |
 
 ## Release assets
 
@@ -80,4 +80,4 @@ Install metadata for redis lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261004.yml` · 2026-10-04T04:23:40Z._
+_Snapshot: `data/card/261005.yml` · 2026-10-05T04:09:21Z._
