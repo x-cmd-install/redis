@@ -14,13 +14,13 @@ x install redis
 
 ## Code insight
 
-Total: **464,297** lines of code across **1571** files in the top 5 languages.
+Total: **465,595** lines of code across **1572** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 257,501 | 60,784 | 40,569 | 503 |
-| Tcl | 91,683 | 11,938 | 15,008 | 245 |
-| CHeader | 41,257 | 19,864 | 7,860 | 344 |
+| C | 258,063 | 60,871 | 40,609 | 503 |
+| Tcl | 92,396 | 12,068 | 15,097 | 246 |
+| CHeader | 41,276 | 19,865 | 7,863 | 344 |
 | Json | 30,999 | 0 | 9 | 478 |
 | ModuleDef | 11,182 | 0 | 2,535 | 1 |
 
@@ -42,28 +42,28 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `8.10.3` (2026-10-26)
-- **Last commit**: 2026-10-28
+- **Latest**: `8.12-rc1` (2026-10-26)
+- **Last commit**: 2026-10-29
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 77,154 · **Forks**: 24,958 · **Open issues**: 7,124 · **Contributors**: 855
+- **Stars**: 77,091 · **Forks**: 24,977 · **Open issues**: 7,126 · **Contributors**: 855
 
 ## Totals (cumulative)
 
-- **Releases**: 162 · **Merged PRs**: 4916 · **Open PRs**: 796 · **Closed issues**: 4832 · **Open issues**: 2292 · **Commits**: 13390
+- **Releases**: 163 · **Merged PRs**: 4919 · **Open PRs**: 803 · **Closed issues**: 4833 · **Open issues**: 2293 · **Commits**: 13392
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-29 | 7 | 66 | 102 | 10 | 24 | 109 |
-| last60d | 2026-08-30 | 12 | 124 | 161 | 19 | 40 | 164 |
-| 90d | 2026-07-31 | 20 | 181 | 206 | 26 | 55 | 229 |
-| last180d | 2026-05-02 | 41 | 358 | 262 | 80 | 87 | 462 |
-| 360d | 2025-11-03 | 56 | 649 | 339 | 145 | 137 | 784 |
-| last720d | 2024-11-08 | 88 | 1032 | 395 | 274 | 286 | 1111 |
+| 30d | 2026-09-30 | 8 | 69 | 109 | 9 | 26 | 111 |
+| last60d | 2026-08-31 | 13 | 127 | 166 | 19 | 41 | 166 |
+| 90d | 2026-08-01 | 21 | 184 | 213 | 26 | 57 | 231 |
+| last180d | 2026-05-03 | 42 | 361 | 269 | 80 | 89 | 464 |
+| 360d | 2025-11-04 | 57 | 648 | 346 | 145 | 139 | 786 |
+| last720d | 2024-11-09 | 89 | 1035 | 402 | 275 | 287 | 1112 |
 
 ## Release assets
 
@@ -97,4 +97,4 @@ Install metadata for redis lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261029.yml` · 2026-10-29T04:27:51Z._
+_Snapshot: `data/card/261030.yml` · 2026-10-30T04:28:29Z._
