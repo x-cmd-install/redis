@@ -2,29 +2,29 @@ about:
   description: "For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine."
   license: NOASSERTION
   homepage: http://redis.io
-  head: 4188839
+  head: 6a5fee6
   archived: false
   latestVersion: "8.12-rc1"
   latestRelease: "8.10.3"
   latestPrerelease: "8.12-rc1"
-  collectedAt: 2026-10-30T04:27:48Z
+  collectedAt: 2026-10-31T04:08:26Z
 timeline:
   created: 2009-03-21
-  lastCommit: 2026-10-29
+  lastCommit: 2026-10-30
   lastVersion: 2026-10-29
   lastRelease: 2026-10-26
   lastPrerelease: 2026-10-29
 popularity:
-  star: 77091
-  watcher: 2495
-  fork: 24977
+  star: 77111
+  watcher: 2496
+  fork: 24992
   release: 163
   contributor: 855
-  pullRequest: 8525
-  issue: 7126
+  pullRequest: 8529
+  issue: 7127
 language:
   C: 10143175
-  Tcl: 4748862
+  Tcl: 4748919
   Python: 268889
   Shell: 106883
   Makefile: 47793
@@ -32,66 +32,66 @@ language:
   C++: 5987
   Smarty: 1047
   JavaScript: 953
-totalBytes: 15347125
+totalBytes: 15347182
 recent:
   last30d:
-    since: 2026-09-30
+    since: 2026-10-01
     release: 8
-    mergedPR: 69
-    openPR: 109
+    mergedPR: 70
+    openPR: 111
     closedIssue: 9
-    openIssue: 26
-    commit: 111
+    openIssue: 27
+    commit: 112
   last60d:
-    since: 2026-08-31
+    since: 2026-09-01
     release: 13
-    mergedPR: 127
-    openPR: 166
+    mergedPR: 125
+    openPR: 167
     closedIssue: 19
-    openIssue: 41
-    commit: 166
+    openIssue: 42
+    commit: 167
   last90d:
-    since: 2026-08-01
+    since: 2026-08-02
     release: 21
-    mergedPR: 184
-    openPR: 213
+    mergedPR: 182
+    openPR: 210
     closedIssue: 26
     openIssue: 57
-    commit: 231
+    commit: 232
   last180d:
-    since: 2026-05-03
+    since: 2026-05-04
     release: 42
     mergedPR: 361
-    openPR: 269
+    openPR: 268
     closedIssue: 80
-    openIssue: 89
-    commit: 464
+    openIssue: 90
+    commit: 465
   last360d:
-    since: 2025-11-04
-    release: 57
-    mergedPR: 648
-    openPR: 346
-    closedIssue: 145
-    openIssue: 139
-    commit: 786
+    since: 2025-11-05
+    release: 56
+    mergedPR: 649
+    openPR: 344
+    closedIssue: 144
+    openIssue: 140
+    commit: 787
   last720d:
-    since: 2024-11-09
+    since: 2024-11-10
     release: 89
-    mergedPR: 1035
-    openPR: 402
+    mergedPR: 1036
+    openPR: 400
     closedIssue: 275
-    openIssue: 287
-    commit: 1112
+    openIssue: 288
+    commit: 1113
 total:
   release: 163
-  mergedPR: 4919
-  openPR: 803
+  mergedPR: 4920
+  openPR: 801
   closedIssue: 4833
-  openIssue: 2293
-  commit: 13392
+  openIssue: 2294
+  commit: 13393
 ---
 path: /home/runner/.x-repo/github.com/redis/redis
-collectedAt: 2026-10-30T04:28:19Z
+collectedAt: 2026-10-31T04:08:56Z
 loc:
   C:
     code: 258063
@@ -99,7 +99,7 @@ loc:
     blanks: 40609
     files: 503
   Tcl:
-    code: 92396
+    code: 92397
     comments: 12068
     blanks: 15097
     files: 246
@@ -244,7 +244,7 @@ loc:
     blanks: 313
     files: 8
 total:
-  code: 466196
+  code: 466197
   comments: 105707
   blanks: 72985
   files: 1854
@@ -415,4 +415,4 @@ checks:
       - 'Info: SAST configuration detected: CodeQL'
       - 'Info: all commits (30) are checked with a SAST tool'
 ---
-{"id":424192186,"author":{"login":"sundb","id":965798,"node_id":"MDQ6VXNlcjk2NTc5OA==","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOAAJhcs4ZSKi6","tag_name":"8.10.3","target_commitish":"8.10","name":"8.10.3","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-10-26T11:37:04Z","updated_at":"2026-10-26T12:00:45Z","published_at":"2026-10-26T11:56:24Z","assets":[{"id":678035787,"node_id":"RA_kwDOAAJhcs4oagFL","name":"redis-full.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":21647086,"digest":"sha256:5e0c00ed77f789fb1a4a30f1fbb58a793cc88c41c0f11f0e38e1b4f192991188","download_count":431,"created_at":"2026-10-26T12:00:44Z","updated_at":"2026-10-26T12:00:45Z"}],"body":"Update urgency: SECURITY: There is a security fix in the release.\r\n\r\n### Security fixes\r\n\r\n- Heap buffer overflow when propagating a `PUBLISH`/`SPUBLISH` message larger than 4GB over the cluster bus in cluster mode","reactions":{"total_count":6,"+1":3,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":3,"rocket":0,"eyes":0}}
+{"id":424192186,"author":{"login":"sundb","id":965798,"node_id":"MDQ6VXNlcjk2NTc5OA==","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOAAJhcs4ZSKi6","tag_name":"8.10.3","target_commitish":"8.10","name":"8.10.3","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-10-26T11:37:04Z","updated_at":"2026-10-26T12:00:45Z","published_at":"2026-10-26T11:56:24Z","assets":[{"id":678035787,"node_id":"RA_kwDOAAJhcs4oagFL","name":"redis-full.tar.gz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/x-gtar","state":"uploaded","size":21647086,"digest":"sha256:5e0c00ed77f789fb1a4a30f1fbb58a793cc88c41c0f11f0e38e1b4f192991188","download_count":499,"created_at":"2026-10-26T12:00:44Z","updated_at":"2026-10-26T12:00:45Z"}],"body":"Update urgency: SECURITY: There is a security fix in the release.\r\n\r\n### Security fixes\r\n\r\n- Heap buffer overflow when propagating a `PUBLISH`/`SPUBLISH` message larger than 4GB over the cluster bus in cluster mode","reactions":{"total_count":6,"+1":3,"-1":0,"laugh":0,"hooray":0,"confused":0,"heart":3,"rocket":0,"eyes":0}}

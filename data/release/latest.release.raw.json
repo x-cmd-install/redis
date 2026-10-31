@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 21647086,
       "digest": "sha256:5e0c00ed77f789fb1a4a30f1fbb58a793cc88c41c0f11f0e38e1b4f192991188",
-      "download_count": 431,
+      "download_count": 499,
       "created_at": "2026-10-26T12:00:44Z",
       "updated_at": "2026-10-26T12:00:45Z",
       "browser_download_url": "https://github.com/redis/redis/releases/download/8.10.3/redis-full.tar.gz"
