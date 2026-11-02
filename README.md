@@ -42,28 +42,28 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `8.12-rc1` (2026-10-26)
-- **Last commit**: 2026-10-30
+- **Latest**: `8.12-rc2` (2026-10-26)
+- **Last commit**: 2026-11-01
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 77,127 · **Forks**: 25,014 · **Open issues**: 7,130 · **Contributors**: 855
+- **Stars**: 77,136 · **Forks**: 25,037 · **Open issues**: 7,130 · **Contributors**: 855
 
 ## Totals (cumulative)
 
-- **Releases**: 163 · **Merged PRs**: 4920 · **Open PRs**: 806 · **Closed issues**: 4833 · **Open issues**: 2297 · **Commits**: 13393
+- **Releases**: 164 · **Merged PRs**: 4922 · **Open PRs**: 808 · **Closed issues**: 4833 · **Open issues**: 2297 · **Commits**: 13394
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 8 | 70 | 116 | 9 | 30 | 106 |
-| last60d | 2026-09-02 | 13 | 121 | 172 | 19 | 45 | 154 |
-| 90d | 2026-08-03 | 21 | 182 | 211 | 26 | 58 | 206 |
-| last180d | 2026-05-05 | 42 | 352 | 271 | 79 | 93 | 442 |
-| 360d | 2025-11-06 | 56 | 649 | 349 | 144 | 143 | 772 |
-| last720d | 2024-11-11 | 89 | 1036 | 405 | 275 | 290 | 1113 |
+| 30d | 2026-10-03 | 9 | 72 | 118 | 9 | 30 | 108 |
+| last60d | 2026-09-03 | 14 | 123 | 175 | 18 | 44 | 156 |
+| 90d | 2026-08-04 | 22 | 182 | 214 | 26 | 58 | 208 |
+| last180d | 2026-05-06 | 37 | 354 | 274 | 78 | 93 | 444 |
+| 360d | 2025-11-07 | 57 | 649 | 351 | 144 | 143 | 774 |
+| last720d | 2024-11-12 | 90 | 1038 | 407 | 274 | 290 | 1113 |
 
 ## Release assets
 
@@ -73,7 +73,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **262** distros on [repology.org](https://repology.org/project/redis). **15** are ✅ on the latest upstream release, **156** are ⚠️ on an older version.
+Reported by **262** distros on [repology.org](https://repology.org/project/redis). **19** are ✅ on the latest upstream release, **152** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -97,4 +97,4 @@ Install metadata for redis lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T04:29:45Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T04:31:44Z._
