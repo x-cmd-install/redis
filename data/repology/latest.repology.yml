@@ -1,3 +1,55 @@
+- repo: opensuse_leap_15_5
+  subrepo: updates/sle
+  srcname: redis
+  visiblename: redis
+  version: 6.2.6
+  origversion: 6.2.6-150400.3.25.1
+  status: outdated
+  summary: Persistent key-value database
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: crux_37
+  subrepo: contrib
+  srcname: redis
+  visiblename: redis
+  version: 7.4.3
+  origversion: null
+  status: outdated
+  summary: An open source, advanced key-value store
+  maintainers:
+    - tbier@posteo.de
+  vulnerable: true
+- repo: homebrew
+  srcname: redis@6.2
+  visiblename: redis@6.2
+  version: 6.2.18
+  origversion: null
+  status: legacy
+  summary: Persistent key-value database, with built-in net interface
+  vulnerable: true
+- repo: homebrew
+  srcname: redis@8.2
+  visiblename: redis@8.2
+  version: 8.2.11
+  origversion: null
+  status: legacy
+  summary: Persistent key-value database, with built-in net interface
+  vulnerable: true
+- repo: ibmi
+  srcname: redis
+  visiblename: redis
+  version: 6.0.10
+  origversion: 6.0.10-1
+  status: outdated
+  summary: Persistent key-value database
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - Unspecified
+  vulnerable: true
 - repo: homebrew
   srcname: redis
   visiblename: redis
@@ -12,56 +64,6 @@
   origversion: null
   status: rolling
   summary: Persistent key-value database, with built-in net interface
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: redis
-  visiblename: redis
-  version: 6.0.9
-  origversion: 6.0.9-3.module+el8.4.0+10984+ed187465
-  status: outdated
-  summary: A persistent key-value database
-  licenses:
-    - BSD and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: redis
-  visiblename: redis
-  version: 6.0.9
-  origversion: 6.0.9-5.module+el8.4.0+12929+1bb0d2aa
-  status: outdated
-  summary: A persistent key-value database
-  licenses:
-    - BSD and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: openindiana
-  subrepo: hipster
-  srcname: redis
-  binname: web/php-84/extension/php-redis
-  visiblename: redis
-  version: 6.3.0
-  origversion: null
-  status: legacy
-  summary: php extension for interfacing with Redis
-  categories:
-    - Development/PHP
-  vulnerable: true
-- repo: openindiana
-  subrepo: hipster
-  srcname: redis
-  binname: web/php-85/extension/php-redis
-  visiblename: redis
-  version: 6.3.0
-  origversion: null
-  status: legacy
-  summary: php extension for interfacing with Redis
-  categories:
-    - Development/PHP
-  vulnerable: true
 - repo: alpine_3_24
   subrepo: community
   srcname: redis
@@ -347,16 +349,6 @@
     - '|| ( AGPL-3 RSAL-2 SSPL-1 ) Boost-1.0 MIT'
   categories:
     - dev-db
-- repo: gobolinux
-  srcname: Redis
-  visiblename: Redis
-  version: 4.0.6
-  origversion: null
-  status: outdated
-  summary: Key-value database
-  licenses:
-    - BSD
-  vulnerable: true
 - repo: liguros_develop
   srcname: dev-db/redis
   visiblename: dev-db/redis
@@ -545,6 +537,18 @@
     - BSD
   categories:
     - Databases
+- repo: openpkg_current
+  srcname: redis
+  visiblename: redis
+  version: 8.4.0
+  origversion: null
+  status: outdated
+  summary: Persistent Key-Value Database
+  licenses:
+    - AGPL
+  categories:
+    - Database
+  vulnerable: true
 - repo: opensuse_tumbleweed
   subrepo: src-oss
   srcname: redis
@@ -711,524 +715,18 @@
   origversion: null
   status: newest
   summary: NoSQL database management software
-- repo: almalinux_8
-  subrepo: AppStream
-  srcname: redis
-  visiblename: redis
-  version: 6.2.18
-  origversion: 6.2.18-1.module_el8.10.0+4029+e0e8b36b
-  status: legacy
-  summary: A persistent key-value database
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - BSD and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: homebrew
-  srcname: redis@6.2
-  visiblename: redis@6.2
-  version: 6.2.18
-  origversion: null
-  status: legacy
-  summary: Persistent key-value database, with built-in net interface
-  vulnerable: true
-- repo: almalinux_8
-  subrepo: AppStream
-  srcname: redis
-  visiblename: redis
-  version: 5.0.3
-  origversion: 5.0.3-5.module_el8.4.0+2583+b9845322
-  status: legacy
-  summary: A persistent key-value database
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - BSD and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: homebrew
-  srcname: redis@8.2
-  visiblename: redis@8.2
-  version: 8.2.11
-  origversion: null
-  status: legacy
-  summary: Persistent key-value database, with built-in net interface
-  vulnerable: true
-- repo: ibmi
-  srcname: redis
-  visiblename: redis
-  version: 6.0.10
-  origversion: 6.0.10-1
-  status: outdated
-  summary: Persistent key-value database
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: opensuse_leap_15_6
+- repo: opensuse_leap_15_5
   subrepo: updates/sle
   srcname: redis
   visiblename: redis
-  version: 7.2.4
-  origversion: 7.2.4-150600.3.3.1
+  version: 6.2.6
+  origversion: 6.2.6-150400.3.28.1
   status: outdated
   summary: Persistent key-value database
   licenses:
     - BSD-3-Clause
   categories:
     - Unspecified
-  vulnerable: true
-- repo: almalinux_8
-  subrepo: AppStream
-  srcname: redis
-  visiblename: redis
-  version: 6.2.17
-  origversion: 6.2.17-1.module_el8.10.0+3946+3de613d5
-  status: legacy
-  summary: A persistent key-value database
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - BSD and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: opensuse_leap_15_6
-  subrepo: updates/sle
-  srcname: redis
-  visiblename: redis
-  version: 7.2.4
-  origversion: 7.2.4-150600.3.18.1
-  status: outdated
-  summary: Persistent key-value database
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: opensuse_leap_15_6
-  subrepo: updates/sle
-  srcname: redis
-  visiblename: redis
-  version: 7.2.4
-  origversion: 7.2.4-150600.3.21.1
-  status: outdated
-  summary: Persistent key-value database
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: opensuse_leap_15_6
-  subrepo: updates/sle
-  srcname: redis
-  visiblename: redis
-  version: 7.2.4
-  origversion: 7.2.4-150600.3.6.1
-  status: outdated
-  summary: Persistent key-value database
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: opensuse_leap_15_6
-  subrepo: updates/sle
-  srcname: redis
-  visiblename: redis
-  version: 7.2.4
-  origversion: 7.2.4-150600.3.9.1
-  status: outdated
-  summary: Persistent key-value database
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: gnuguix
-  srcname: redis
-  binname: redis
-  visiblename: redis
-  version: 7.2.6
-  origversion: null
-  status: outdated
-  summary: Key-value cache and store
-  vulnerable: true
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: redis
-  binname: redis
-  visiblename: redis
-  version: 7.2.1
-  origversion: 7.2.1-1
-  status: outdated
-  summary: An in-memory database that persists on disk
-  licenses:
-    - BSD
-  vulnerable: true
-- repo: kali_rolling
-  subrepo: main
-  srcname: redis
-  binnames:
-    - redis
-    - redis-sentinel
-    - redis-server
-    - redis-tools
-  visiblename: redis
-  version: 8.0.6
-  origversion: 5:8.0.6-3
-  status: outdated
-  maintainers:
-    - lamby@debian.org
-  categories:
-    - database
-  vulnerable: true
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: redis
-  visiblename: redis
-  version: 7.2.4
-  origversion: 7.2.4-150600.1.2
-  status: outdated
-  summary: Persistent key-value database
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: opensuse_leap_15_6
-  subrepo: updates/sle
-  srcname: redis
-  visiblename: redis
-  version: 7.2.4
-  origversion: 7.2.4-150600.3.12.1
-  status: outdated
-  summary: Persistent key-value database
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: opensuse_leap_15_6
-  subrepo: updates/sle
-  srcname: redis
-  visiblename: redis
-  version: 7.2.4
-  origversion: 7.2.4-150600.3.15.1
-  status: outdated
-  summary: Persistent key-value database
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: alpine_3_17
-  subrepo: main
-  srcname: redis
-  binname: redis-openrc
-  visiblename: redis-openrc
-  version: 7.0.15
-  origversion: 7.0.15-r1
-  status: outdated
-  summary: Advanced key-value store (OpenRC init scripts)
-  maintainers:
-    - alpine@jjtc.eu
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: alpine_3_17
-  subrepo: main
-  srcname: redis
-  binname: redis
-  visiblename: redis
-  version: 7.0.15
-  origversion: 7.0.15-r1
-  status: outdated
-  summary: Advanced key-value store
-  maintainers:
-    - alpine@jjtc.eu
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: nix_stable_24_11
-  srcname: redis
-  visiblename: redis
-  version: 7.2.7
-  origversion: null
-  status: outdated
-  summary: Open source, advanced key-value store
-  maintainers:
-    - berdario@gmail.com
-    - mail@glob.in
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: redis
-  binnames:
-    - redis
-    - redis-sentinel
-    - redis-server
-    - redis-tools
-  visiblename: redis
-  version: 8.0.2
-  origversion: 5:8.0.2-3+deb13u3
-  status: outdated
-  maintainers:
-    - lamby@debian.org
-  categories:
-    - database
-  vulnerable: true
-- repo: alpine_3_18
-  subrepo: main
-  srcname: redis
-  binname: redis
-  visiblename: redis
-  version: 7.0.15
-  origversion: 7.0.15-r4
-  status: outdated
-  summary: Advanced key-value store
-  maintainers:
-    - alpine@jjtc.eu
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: alpine_3_18
-  subrepo: main
-  srcname: redis
-  binname: redis-openrc
-  visiblename: redis-openrc
-  version: 7.0.15
-  origversion: 7.0.15-r4
-  status: outdated
-  summary: Advanced key-value store (OpenRC init scripts)
-  maintainers:
-    - alpine@jjtc.eu
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: almalinux_8
-  subrepo: AppStream
-  srcname: redis
-  visiblename: redis
-  version: 5.0.3
-  origversion: 5.0.3-5.module_el8.5.0+66+fc19ec12
-  status: legacy
-  summary: A persistent key-value database
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - BSD and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: almalinux_8
-  subrepo: AppStream
-  srcname: redis
-  visiblename: redis
-  version: 5.0.3
-  origversion: 5.0.3-5.module_el8.6.0+3037+322c0650
-  status: legacy
-  summary: A persistent key-value database
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - BSD and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: almalinux_8
-  subrepo: AppStream
-  srcname: redis
-  visiblename: redis
-  version: 6.2.18
-  origversion: 6.2.18-1.module_el8.10.0+3994+c2cc5395
-  status: legacy
-  summary: A persistent key-value database
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - BSD and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: almalinux_8
-  subrepo: AppStream
-  srcname: redis
-  visiblename: redis
-  version: 6.2.19
-  origversion: 6.2.19-1.module_el8.10.0+4030+0c7fcc00
-  status: legacy
-  summary: A persistent key-value database
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - BSD and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: almalinux_8
-  subrepo: AppStream
-  srcname: redis
-  visiblename: redis
-  version: 6.2.20
-  origversion: 6.2.20-1.module_el8.10.0+4056+739731b0
-  status: legacy
-  summary: A persistent key-value database
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - BSD and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: almalinux_8
-  subrepo: AppStream
-  srcname: redis
-  visiblename: redis
-  version: 6.2.22
-  origversion: 6.2.22-1.module_el8.10.0+4197+3446deec
-  status: legacy
-  summary: A persistent key-value database
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - BSD and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: almalinux_8
-  subrepo: AppStream
-  srcname: redis
-  visiblename: redis
-  version: 6.2.24
-  origversion: 6.2.24-1.module_el8.10.0+4271+7f8f19af
-  status: outdated
-  summary: A persistent key-value database
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - BSD and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: almalinux_8
-  subrepo: AppStream
-  srcname: redis
-  visiblename: redis
-  version: 6.2.7
-  origversion: 6.2.7-1.module_el8.7.0+3288+a82c1b48
-  status: legacy
-  summary: A persistent key-value database
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - BSD and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: main
-  srcname: redis
-  binname: redis
-  visiblename: redis
-  version: 7.2.9
-  origversion: 7.2.9-r0
-  status: outdated
-  summary: Advanced key-value store
-  maintainers:
-    - alpine@jjtc.eu
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: alpine_3_19
-  subrepo: main
-  srcname: redis
-  binname: redis-openrc
-  visiblename: redis-openrc
-  version: 7.2.9
-  origversion: 7.2.9-r0
-  status: outdated
-  summary: Advanced key-value store (OpenRC init scripts)
-  maintainers:
-    - alpine@jjtc.eu
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: almalinux_9
-  subrepo: AppStream
-  srcname: redis
-  binnames:
-    - redis-debugsource
-    - redis-debuginfo
-    - redis-doc
-    - redis-devel
-    - redis
-  visiblename: redis
-  version: 6.2.20
-  origversion: 6.2.20-3.el9_7
-  status: legacy
-  summary: A persistent key-value database
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - BSD and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: almalinux_9
-  subrepo: AppStream
-  srcname: redis
-  binnames:
-    - redis-debugsource
-    - redis-debuginfo
-    - redis-doc
-    - redis-devel
-    - redis
-  visiblename: redis
-  version: 6.2.22
-  origversion: 6.2.22-1.el9_8
-  status: legacy
-  summary: A persistent key-value database
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - BSD and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: almalinux_9
-  subrepo: AppStream
-  srcname: redis
-  binnames:
-    - redis-debugsource
-    - redis-debuginfo
-    - redis-doc
-    - redis-devel
-    - redis
-  visiblename: redis
-  version: 6.2.24
-  origversion: 6.2.24-1.el9_8
-  status: legacy
-  summary: A persistent key-value database
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - BSD and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: aix_osp
-  srcname: redis
-  visiblename: redis
-  version: 2.6.7
-  origversion: 2.6.7-1
-  status: legacy
   vulnerable: true
 - repo: almalinux_9
   subrepo: AppStream
@@ -1251,18 +749,19 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
+- repo: aix_osp
   srcname: redis
   visiblename: redis
-  version: 5.0.3
-  origversion: 5.0.3-2.module+el8.0.0.z+3657+acb471dc
+  version: 2.6.17
+  origversion: 2.6.17-1
+  status: outdated
+  vulnerable: true
+- repo: aix_osp
+  srcname: redis
+  visiblename: redis
+  version: 2.6.7
+  origversion: 2.6.7-1
   status: legacy
-  summary: A persistent key-value database
-  licenses:
-    - BSD and MIT
-  categories:
-    - Unspecified
   vulnerable: true
 - repo: almalinux_9
   subrepo: AppStream
@@ -1285,54 +784,39 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
+- repo: almalinux_8
+  subrepo: AppStream
   srcname: redis
   visiblename: redis
-  version: 5.0.3
-  origversion: 5.0.3-5.module+el8.4.0+12927+b9845322
+  version: 6.2.22
+  origversion: 6.2.22-1.module_el8.10.0+4197+3446deec
   status: legacy
   summary: A persistent key-value database
+  maintainers:
+    - packager@almalinux.org
   licenses:
     - BSD and MIT
   categories:
     - Unspecified
   vulnerable: true
-- repo: almalinux_9
-  subrepo: AppStream
+- repo: eurolinux_9
+  subrepo: appstream
   srcname: redis
   binnames:
-    - redis-debugsource
-    - redis-debuginfo
-    - redis-doc
-    - redis-devel
     - redis
+    - redis-devel
+    - redis-doc
+    - redis-debuginfo
+    - redis-debugsource
   visiblename: redis
-  version: 7.2.16
-  origversion: 7.2.16-1.module_el9.8.0+306+953cd8b9
+  version: 7.0.12
+  origversion: 7.0.12-2.module+el9.3.0+21263+4e58afe8
   status: outdated
   summary: A persistent key-value database
-  maintainers:
-    - packager@almalinux.org
   licenses:
-    - BSD-3-Clause AND BSD-2-Clause AND MIT AND BSL-1.0
+    - BSD-3-Clause AND BSD-2-Clause AND MIT
   categories:
     - Unspecified
-  vulnerable: true
-- repo: apertis_v2025
-  subrepo: v2025/development
-  srcname: redis
-  binnames:
-    - redis
-    - redis-sentinel
-    - redis-server
-    - redis-tools
-  visiblename: redis
-  version: 7.0.15
-  origversion: 5:7.0.15-1~deb12u10+apertis0
-  status: outdated
-  maintainers:
-    - lamby@debian.org
   vulnerable: true
 - repo: adelie_current
   subrepo: user
@@ -1460,12 +944,323 @@
   origversion: 2.6.16-1
   status: legacy
   vulnerable: true
-- repo: aix_osp
+- repo: almalinux_8
+  subrepo: AppStream
   srcname: redis
   visiblename: redis
-  version: 2.6.17
-  origversion: 2.6.17-1
+  version: 5.0.3
+  origversion: 5.0.3-5.module_el8.4.0+2583+b9845322
+  status: legacy
+  summary: A persistent key-value database
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - BSD and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: almalinux_8
+  subrepo: AppStream
+  srcname: redis
+  visiblename: redis
+  version: 5.0.3
+  origversion: 5.0.3-5.module_el8.5.0+66+fc19ec12
+  status: legacy
+  summary: A persistent key-value database
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - BSD and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: almalinux_8
+  subrepo: AppStream
+  srcname: redis
+  visiblename: redis
+  version: 5.0.3
+  origversion: 5.0.3-5.module_el8.6.0+3037+322c0650
+  status: legacy
+  summary: A persistent key-value database
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - BSD and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: almalinux_8
+  subrepo: AppStream
+  srcname: redis
+  visiblename: redis
+  version: 6.2.17
+  origversion: 6.2.17-1.module_el8.10.0+3946+3de613d5
+  status: legacy
+  summary: A persistent key-value database
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - BSD and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: almalinux_8
+  subrepo: AppStream
+  srcname: redis
+  visiblename: redis
+  version: 6.2.18
+  origversion: 6.2.18-1.module_el8.10.0+3994+c2cc5395
+  status: legacy
+  summary: A persistent key-value database
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - BSD and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: almalinux_8
+  subrepo: AppStream
+  srcname: redis
+  visiblename: redis
+  version: 6.2.18
+  origversion: 6.2.18-1.module_el8.10.0+4029+e0e8b36b
+  status: legacy
+  summary: A persistent key-value database
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - BSD and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: almalinux_8
+  subrepo: AppStream
+  srcname: redis
+  visiblename: redis
+  version: 6.2.19
+  origversion: 6.2.19-1.module_el8.10.0+4030+0c7fcc00
+  status: legacy
+  summary: A persistent key-value database
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - BSD and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: almalinux_8
+  subrepo: AppStream
+  srcname: redis
+  visiblename: redis
+  version: 6.2.20
+  origversion: 6.2.20-1.module_el8.10.0+4056+739731b0
+  status: legacy
+  summary: A persistent key-value database
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - BSD and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: almalinux_8
+  subrepo: AppStream
+  srcname: redis
+  visiblename: redis
+  version: 6.2.24
+  origversion: 6.2.24-1.module_el8.10.0+4271+7f8f19af
   status: outdated
+  summary: A persistent key-value database
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - BSD and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: almalinux_8
+  subrepo: AppStream
+  srcname: redis
+  visiblename: redis
+  version: 6.2.7
+  origversion: 6.2.7-1.module_el8.7.0+3288+a82c1b48
+  status: legacy
+  summary: A persistent key-value database
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - BSD and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: almalinux_9
+  subrepo: AppStream
+  srcname: redis
+  binnames:
+    - redis-debugsource
+    - redis-debuginfo
+    - redis-doc
+    - redis-devel
+    - redis
+  visiblename: redis
+  version: 6.2.20
+  origversion: 6.2.20-3.el9_7
+  status: legacy
+  summary: A persistent key-value database
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - BSD and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: almalinux_9
+  subrepo: AppStream
+  srcname: redis
+  binnames:
+    - redis-debugsource
+    - redis-debuginfo
+    - redis-doc
+    - redis-devel
+    - redis
+  visiblename: redis
+  version: 6.2.22
+  origversion: 6.2.22-1.el9_8
+  status: legacy
+  summary: A persistent key-value database
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - BSD and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: almalinux_9
+  subrepo: AppStream
+  srcname: redis
+  binnames:
+    - redis-debugsource
+    - redis-debuginfo
+    - redis-doc
+    - redis-devel
+    - redis
+  visiblename: redis
+  version: 6.2.24
+  origversion: 6.2.24-1.el9_8
+  status: legacy
+  summary: A persistent key-value database
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - BSD and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: almalinux_9
+  subrepo: AppStream
+  srcname: redis
+  binnames:
+    - redis-debugsource
+    - redis-debuginfo
+    - redis-doc
+    - redis-devel
+    - redis
+  visiblename: redis
+  version: 7.2.16
+  origversion: 7.2.16-1.module_el9.8.0+306+953cd8b9
+  status: outdated
+  summary: A persistent key-value database
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - BSD-3-Clause AND BSD-2-Clause AND MIT AND BSL-1.0
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: alpine_3_17
+  subrepo: main
+  srcname: redis
+  binname: redis-openrc
+  visiblename: redis-openrc
+  version: 7.0.15
+  origversion: 7.0.15-r1
+  status: outdated
+  summary: Advanced key-value store (OpenRC init scripts)
+  maintainers:
+    - alpine@jjtc.eu
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: alpine_3_17
+  subrepo: main
+  srcname: redis
+  binname: redis
+  visiblename: redis
+  version: 7.0.15
+  origversion: 7.0.15-r1
+  status: outdated
+  summary: Advanced key-value store
+  maintainers:
+    - alpine@jjtc.eu
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: main
+  srcname: redis
+  binname: redis
+  visiblename: redis
+  version: 7.0.15
+  origversion: 7.0.15-r4
+  status: outdated
+  summary: Advanced key-value store
+  maintainers:
+    - alpine@jjtc.eu
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: alpine_3_18
+  subrepo: main
+  srcname: redis
+  binname: redis-openrc
+  visiblename: redis-openrc
+  version: 7.0.15
+  origversion: 7.0.15-r4
+  status: outdated
+  summary: Advanced key-value store (OpenRC init scripts)
+  maintainers:
+    - alpine@jjtc.eu
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: alpine_3_19
+  subrepo: main
+  srcname: redis
+  binname: redis
+  visiblename: redis
+  version: 7.2.9
+  origversion: 7.2.9-r0
+  status: outdated
+  summary: Advanced key-value store
+  maintainers:
+    - alpine@jjtc.eu
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: alpine_3_19
+  subrepo: main
+  srcname: redis
+  binname: redis-openrc
+  visiblename: redis-openrc
+  version: 7.2.9
+  origversion: 7.2.9-r0
+  status: outdated
+  summary: Advanced key-value store (OpenRC init scripts)
+  maintainers:
+    - alpine@jjtc.eu
+  licenses:
+    - BSD-3-Clause
   vulnerable: true
 - repo: alpine_3_20
   subrepo: community
@@ -1536,21 +1331,6 @@
     - fossdd@pwned.life
   licenses:
     - AGPL-3.0-only OR SSPL-1.0
-  vulnerable: true
-- repo: apertis_v2026
-  subrepo: v2026/development
-  srcname: redis
-  binnames:
-    - redis
-    - redis-sentinel
-    - redis-server
-    - redis-tools
-  visiblename: redis
-  version: 8.0.2
-  origversion: 5:8.0.2-3+deb13u2+apertis1
-  status: outdated
-  maintainers:
-    - lamby@debian.org
   vulnerable: true
 - repo: alpine_3_22
   subrepo: community
@@ -1620,6 +1400,36 @@
   visiblename: redis
   version: 7.0.15
   origversion: 5:7.0.15-1~deb12u10+apertis0
+  status: outdated
+  maintainers:
+    - lamby@debian.org
+  vulnerable: true
+- repo: apertis_v2025
+  subrepo: v2025/development
+  srcname: redis
+  binnames:
+    - redis
+    - redis-sentinel
+    - redis-server
+    - redis-tools
+  visiblename: redis
+  version: 7.0.15
+  origversion: 5:7.0.15-1~deb12u10+apertis0
+  status: outdated
+  maintainers:
+    - lamby@debian.org
+  vulnerable: true
+- repo: apertis_v2026
+  subrepo: v2026/development
+  srcname: redis
+  binnames:
+    - redis
+    - redis-sentinel
+    - redis-server
+    - redis-tools
+  visiblename: redis
+  version: 8.0.2
+  origversion: 5:8.0.2-3+deb13u3+apertis1
   status: outdated
   maintainers:
     - lamby@debian.org
@@ -1785,6 +1595,25 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: eurolinux_9
+  subrepo: baseos
+  srcname: redis
+  binnames:
+    - redis
+    - redis-devel
+    - redis-doc
+    - redis-debuginfo
+    - redis-debugsource
+  visiblename: redis
+  version: 6.2.6
+  origversion: 6.2.6-1.el9
+  status: legacy
+  summary: A persistent key-value database
+  licenses:
+    - BSD and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
 - repo: centos_stream_8
   subrepo: AppStream
   srcname: redis
@@ -1929,17 +1758,6 @@
   summary: Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache and message broker.
   licenses:
     - BSD
-  vulnerable: true
-- repo: crux_37
-  subrepo: contrib
-  srcname: redis
-  visiblename: redis
-  version: 7.4.3
-  origversion: null
-  status: outdated
-  summary: An open source, advanced key-value store
-  maintainers:
-    - tbier@posteo.de
   vulnerable: true
 - repo: debian_11
   subrepo: bullseye-security/main
@@ -2167,6 +1985,58 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: redis
+  visiblename: redis
+  version: 5.0.3
+  origversion: 5.0.3-2.module+el8.0.0.z+3657+acb471dc
+  status: legacy
+  summary: A persistent key-value database
+  licenses:
+    - BSD and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: redis
+  visiblename: redis
+  version: 5.0.3
+  origversion: 5.0.3-5.module+el8.4.0+12927+b9845322
+  status: legacy
+  summary: A persistent key-value database
+  licenses:
+    - BSD and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: redis
+  visiblename: redis
+  version: 6.0.9
+  origversion: 6.0.9-3.module+el8.4.0+10984+ed187465
+  status: outdated
+  summary: A persistent key-value database
+  licenses:
+    - BSD and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: redis
+  visiblename: redis
+  version: 6.0.9
+  origversion: 6.0.9-5.module+el8.4.0+12929+1bb0d2aa
+  status: outdated
+  summary: A persistent key-value database
+  licenses:
+    - BSD and MIT
+  categories:
+    - Unspecified
+  vulnerable: true
 - repo: eurolinux_9
   subrepo: appstream
   srcname: redis
@@ -2198,44 +2068,6 @@
   visiblename: redis
   version: 6.2.7
   origversion: 6.2.7-1.el9
-  status: legacy
-  summary: A persistent key-value database
-  licenses:
-    - BSD and MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_9
-  subrepo: appstream
-  srcname: redis
-  binnames:
-    - redis
-    - redis-devel
-    - redis-doc
-    - redis-debuginfo
-    - redis-debugsource
-  visiblename: redis
-  version: 7.0.12
-  origversion: 7.0.12-2.module+el9.3.0+21263+4e58afe8
-  status: outdated
-  summary: A persistent key-value database
-  licenses:
-    - BSD-3-Clause AND BSD-2-Clause AND MIT
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_9
-  subrepo: baseos
-  srcname: redis
-  binnames:
-    - redis
-    - redis-devel
-    - redis-doc
-    - redis-debuginfo
-    - redis-debugsource
-  visiblename: redis
-  version: 6.2.6
-  origversion: 6.2.6-1.el9
   status: legacy
   summary: A persistent key-value database
   licenses:
@@ -2439,6 +2271,25 @@
   categories:
     - dev-db
   vulnerable: true
+- repo: gnuguix
+  srcname: redis
+  binname: redis
+  visiblename: redis
+  version: 7.2.6
+  origversion: null
+  status: outdated
+  summary: Key-value cache and store
+  vulnerable: true
+- repo: gobolinux
+  srcname: Redis
+  visiblename: Redis
+  version: 4.0.6
+  origversion: null
+  status: outdated
+  summary: Key-value database
+  licenses:
+    - BSD
+  vulnerable: true
 - repo: haikuports_master
   srcname: dev-db/redis
   visiblename: dev-db/redis
@@ -2447,6 +2298,23 @@
   status: outdated
   categories:
     - dev-db
+  vulnerable: true
+- repo: kali_rolling
+  subrepo: main
+  srcname: redis
+  binnames:
+    - redis
+    - redis-sentinel
+    - redis-server
+    - redis-tools
+  visiblename: redis
+  version: 8.0.6
+  origversion: 5:8.0.6-3
+  status: outdated
+  maintainers:
+    - lamby@debian.org
+  categories:
+    - database
   vulnerable: true
 - repo: liguros_stable
   srcname: dev-db/redis
@@ -2481,19 +2349,6 @@
     - BSD
   categories:
     - dev-db
-  vulnerable: true
-- repo: nix_stable_24_05
-  srcname: redis
-  visiblename: redis
-  version: 7.2.6
-  origversion: null
-  status: outdated
-  summary: An open source, advanced key-value store
-  maintainers:
-    - berdario@gmail.com
-    - mail@glob.in
-  licenses:
-    - BSD-3-Clause
   vulnerable: true
 - repo: mageia_9
   subrepo: core/release
@@ -2659,6 +2514,44 @@
   summary: An in-memory database that persists on disk
   licenses:
     - BSD
+  vulnerable: true
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: redis
+  binname: redis
+  visiblename: redis
+  version: 7.2.1
+  origversion: 7.2.1-1
+  status: outdated
+  summary: An in-memory database that persists on disk
+  licenses:
+    - BSD
+  vulnerable: true
+- repo: nix_stable_24_05
+  srcname: redis
+  visiblename: redis
+  version: 7.2.6
+  origversion: null
+  status: outdated
+  summary: An open source, advanced key-value store
+  maintainers:
+    - berdario@gmail.com
+    - mail@glob.in
+  licenses:
+    - BSD-3-Clause
+  vulnerable: true
+- repo: nix_stable_24_11
+  srcname: redis
+  visiblename: redis
+  version: 7.2.7
+  origversion: null
+  status: outdated
+  summary: Open source, advanced key-value store
+  maintainers:
+    - berdario@gmail.com
+    - mail@glob.in
+  licenses:
+    - BSD-3-Clause
   vulnerable: true
 - repo: nix_stable_25_05
   srcname: redis
@@ -2846,6 +2739,30 @@
   categories:
     - Development/PHP
   vulnerable: true
+- repo: openindiana
+  subrepo: hipster
+  srcname: redis
+  binname: web/php-84/extension/php-redis
+  visiblename: redis
+  version: 6.3.0
+  origversion: null
+  status: legacy
+  summary: php extension for interfacing with Redis
+  categories:
+    - Development/PHP
+  vulnerable: true
+- repo: openindiana
+  subrepo: hipster
+  srcname: redis
+  binname: web/php-85/extension/php-redis
+  visiblename: redis
+  version: 6.3.0
+  origversion: null
+  status: legacy
+  summary: php extension for interfacing with Redis
+  categories:
+    - Development/PHP
+  vulnerable: true
 - repo: openmandriva_6_0
   subrepo: main/release
   srcname: redis
@@ -2862,18 +2779,6 @@
     - BSD
   categories:
     - Databases
-  vulnerable: true
-- repo: openpkg_current
-  srcname: redis
-  visiblename: redis
-  version: 8.4.0
-  origversion: null
-  status: outdated
-  summary: Persistent Key-Value Database
-  licenses:
-    - AGPL
-  categories:
-    - Database
   vulnerable: true
 - repo: opensuse_leap_15_5
   subrepo: main/oss
@@ -2901,12 +2806,12 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: opensuse_leap_15_5
-  subrepo: updates/sle
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
   srcname: redis
   visiblename: redis
-  version: 6.2.6
-  origversion: 6.2.6-150400.3.25.1
+  version: 7.2.4
+  origversion: 7.2.4-150600.1.2
   status: outdated
   summary: Persistent key-value database
   licenses:
@@ -2914,12 +2819,90 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: opensuse_leap_15_5
+- repo: opensuse_leap_15_6
   subrepo: updates/sle
   srcname: redis
   visiblename: redis
-  version: 6.2.6
-  origversion: 6.2.6-150400.3.28.1
+  version: 7.2.4
+  origversion: 7.2.4-150600.3.12.1
+  status: outdated
+  summary: Persistent key-value database
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: opensuse_leap_15_6
+  subrepo: updates/sle
+  srcname: redis
+  visiblename: redis
+  version: 7.2.4
+  origversion: 7.2.4-150600.3.15.1
+  status: outdated
+  summary: Persistent key-value database
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: opensuse_leap_15_6
+  subrepo: updates/sle
+  srcname: redis
+  visiblename: redis
+  version: 7.2.4
+  origversion: 7.2.4-150600.3.18.1
+  status: outdated
+  summary: Persistent key-value database
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: opensuse_leap_15_6
+  subrepo: updates/sle
+  srcname: redis
+  visiblename: redis
+  version: 7.2.4
+  origversion: 7.2.4-150600.3.21.1
+  status: outdated
+  summary: Persistent key-value database
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: opensuse_leap_15_6
+  subrepo: updates/sle
+  srcname: redis
+  visiblename: redis
+  version: 7.2.4
+  origversion: 7.2.4-150600.3.3.1
+  status: outdated
+  summary: Persistent key-value database
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: opensuse_leap_15_6
+  subrepo: updates/sle
+  srcname: redis
+  visiblename: redis
+  version: 7.2.4
+  origversion: 7.2.4-150600.3.6.1
+  status: outdated
+  summary: Persistent key-value database
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: opensuse_leap_15_6
+  subrepo: updates/sle
+  srcname: redis
+  visiblename: redis
+  version: 7.2.4
+  origversion: 7.2.4-150600.3.9.1
   status: outdated
   summary: Persistent key-value database
   licenses:
@@ -3041,6 +3024,23 @@
   vulnerable: true
 - repo: parrot
   subrepo: parrot/main
+  srcname: redis
+  binnames:
+    - redis
+    - redis-sentinel
+    - redis-server
+    - redis-tools
+  visiblename: redis
+  version: 8.0.2
+  origversion: 5:8.0.2-3+deb13u3
+  status: outdated
+  maintainers:
+    - lamby@debian.org
+  categories:
+    - database
+  vulnerable: true
+- repo: parrot
+  subrepo: parrot-updates/main
   srcname: redis
   binnames:
     - redis
@@ -3413,6 +3413,23 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: redis
+  binnames:
+    - redis
+    - redis-sentinel
+    - redis-server
+    - redis-tools
+  visiblename: redis
+  version: 7.0.15
+  origversion: 5:7.0.15-3
+  status: outdated
+  maintainers:
+    - lamby@debian.org
+  categories:
+    - universe/misc
+  vulnerable: true
 - repo: rosa_2019_1
   subrepo: main/release
   srcname: redis
@@ -3668,23 +3685,6 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - universe/misc
-  vulnerable: true
-- repo: ubuntu_25_04
-  subrepo: plucky/universe
-  srcname: redis
-  binnames:
-    - redis
-    - redis-sentinel
-    - redis-server
-    - redis-tools
-  visiblename: redis
-  version: 7.0.15
-  origversion: 5:7.0.15-3
-  status: outdated
-  maintainers:
-    - lamby@debian.org
   categories:
     - universe/misc
   vulnerable: true
