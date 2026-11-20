@@ -14,12 +14,12 @@ x install redis
 
 ## Code insight
 
-Total: **473,322** lines of code across **1577** files in the top 5 languages.
+Total: **473,321** lines of code across **1577** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | C | 261,141 | 60,329 | 40,303 | 504 |
-| Tcl | 96,468 | 12,815 | 15,552 | 247 |
+| Tcl | 96,467 | 12,820 | 15,551 | 247 |
 | CHeader | 41,352 | 19,892 | 7,867 | 344 |
 | Json | 31,393 | 0 | 9 | 481 |
 | ModuleDef | 11,279 | 0 | 2,555 | 1 |
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 77,515 · **Forks**: 25,046 · **Open issues**: 7,168 · **Contributors**: 864
+- **Stars**: 77,569 · **Forks**: 25,069 · **Open issues**: 7,169 · **Contributors**: 865
 
 ## Totals (cumulative)
 
-- **Releases**: 165 · **Merged PRs**: 4995 · **Open PRs**: 810 · **Closed issues**: 4848 · **Open issues**: 2320 · **Commits**: 13454
+- **Releases**: 165 · **Merged PRs**: 5001 · **Open PRs**: 815 · **Closed issues**: 4848 · **Open issues**: 2321 · **Commits**: 13460
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-20 | 10 | 93 | 94 | 15 | 44 | 131 |
-| last60d | 2026-09-20 | 10 | 156 | 173 | 24 | 68 | 230 |
-| 90d | 2026-08-21 | 15 | 210 | 211 | 30 | 77 | 284 |
-| last180d | 2026-05-23 | 37 | 395 | 272 | 79 | 114 | 500 |
-| 360d | 2025-11-24 | 57 | 698 | 350 | 153 | 163 | 853 |
-| last720d | 2024-11-29 | 91 | 1101 | 409 | 285 | 309 | 1163 |
+| 30d | 2026-10-21 | 10 | 93 | 98 | 13 | 43 | 143 |
+| last60d | 2026-09-21 | 10 | 162 | 178 | 24 | 69 | 242 |
+| 90d | 2026-08-22 | 15 | 216 | 213 | 30 | 78 | 296 |
+| last180d | 2026-05-24 | 37 | 399 | 277 | 78 | 115 | 512 |
+| 360d | 2025-11-25 | 57 | 701 | 354 | 149 | 164 | 865 |
+| last720d | 2024-11-30 | 91 | 1107 | 414 | 285 | 310 | 1169 |
 
 ## Release assets
 
@@ -97,4 +97,4 @@ Install metadata for redis lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261119.yml` · 2026-11-19T05:59:08Z._
+_Snapshot: `data/card/261120.yml` · 2026-11-20T05:48:11Z._
