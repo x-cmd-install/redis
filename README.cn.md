@@ -42,38 +42,38 @@ x install redis
 
 ## 发布
 
-- **最新版本**: `8.12-rc3` (2026-10-26)
-- **最近提交**: 2026-11-19
+- **最新版本**: `8.12.0` (2026-11-22)
+- **最近提交**: 2026-11-22
 - **Release 含资产**: 1 个
 
 ## 流行度
 
-- **Star**: 77,623 · **Fork**: 24,987 · **开放 issue**: 7,188 · **贡献者**: 865
+- **Star**: 77,710 · **Fork**: 24,992 · **开放 issue**: 7,200 · **贡献者**: 865
 
 ## 累计统计
 
-- **发布数**: 165 · **已合并 PR**: 5001 · **开放 PR**: 825 · **已关闭 issue**: 4848 · **开放 issue**: 2340 · **提交数**: 13460
+- **发布数**: 166 · **已合并 PR**: 5003 · **开放 PR**: 827 · **已关闭 issue**: 4861 · **开放 issue**: 2339 · **提交数**: 13461
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-23 | 10 | 86 | 97 | 12 | 61 | 110 |
-| last60d | 2026-09-23 | 10 | 157 | 177 | 24 | 82 | 223 |
-| 90d | 2026-08-24 | 15 | 213 | 219 | 30 | 96 | 278 |
-| last180d | 2026-05-26 | 36 | 390 | 285 | 77 | 134 | 499 |
-| 360d | 2025-11-27 | 57 | 697 | 363 | 145 | 183 | 858 |
-| last720d | 2024-12-02 | 91 | 1105 | 424 | 285 | 327 | 1169 |
+| 30d | 2026-10-24 | 11 | 87 | 97 | 24 | 61 | 112 |
+| last60d | 2026-09-24 | 11 | 157 | 173 | 34 | 80 | 225 |
+| 90d | 2026-08-25 | 16 | 214 | 215 | 42 | 96 | 280 |
+| last180d | 2026-05-27 | 37 | 391 | 285 | 89 | 134 | 501 |
+| 360d | 2025-11-28 | 58 | 697 | 365 | 156 | 183 | 860 |
+| last720d | 2024-12-03 | 92 | 1106 | 426 | 298 | 326 | 1170 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [redis-full.tar.gz](https://github.com/redis/redis/releases/download/8.10.3/redis-full.tar.gz) | 20.6 MiB | `native/unknown` |
+| [redis-full-8.12.0.tar.gz](https://github.com/redis/redis/releases/download/8.12.0/redis-full-8.12.0.tar.gz) | 23.2 MiB | `native/unknown` |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/redis) 上共有 **234** 个发行版报告此项目。**25** 个 ✅ 已是最新上游版本，**142** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/redis) 上共有 **234** 个发行版报告此项目。**3** 个 ✅ 已是最新上游版本，**164** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -82,11 +82,11 @@ x install redis
 | Debian 13 | `8.0.2` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `8.0.5` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `7.0.15` | ⚠️ outdated |
-| Homebrew | `8.10.3` | ✅ latest |
-| Nix unstable | `8.10.3` | ✅ latest |
+| Homebrew | `8.12.0` | ✅ latest |
+| Nix unstable | `8.10.3` | ⚠️ outdated |
 | Void | `8.8.2` | ⚠️ outdated |
 | Alpine edge | `8.8.1` | ⚠️ outdated |
-| openSUSE Tumbleweed | `8.10.3` | ✅ latest |
+| openSUSE Tumbleweed | `8.10.3` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -97,4 +97,4 @@ redis 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261122.yml` · 2026-11-22T05:11:45Z._
+_数据快照: `data/card/261123.yml` · 2026-11-23T05:53:02Z._

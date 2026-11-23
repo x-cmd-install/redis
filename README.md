@@ -42,38 +42,38 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `8.12-rc3` (2026-10-26)
-- **Last commit**: 2026-11-19
+- **Latest**: `8.12.0` (2026-11-22)
+- **Last commit**: 2026-11-22
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 77,623 · **Forks**: 24,987 · **Open issues**: 7,188 · **Contributors**: 865
+- **Stars**: 77,710 · **Forks**: 24,992 · **Open issues**: 7,200 · **Contributors**: 865
 
 ## Totals (cumulative)
 
-- **Releases**: 165 · **Merged PRs**: 5001 · **Open PRs**: 825 · **Closed issues**: 4848 · **Open issues**: 2340 · **Commits**: 13460
+- **Releases**: 166 · **Merged PRs**: 5003 · **Open PRs**: 827 · **Closed issues**: 4861 · **Open issues**: 2339 · **Commits**: 13461
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-23 | 10 | 86 | 97 | 12 | 61 | 110 |
-| last60d | 2026-09-23 | 10 | 157 | 177 | 24 | 82 | 223 |
-| 90d | 2026-08-24 | 15 | 213 | 219 | 30 | 96 | 278 |
-| last180d | 2026-05-26 | 36 | 390 | 285 | 77 | 134 | 499 |
-| 360d | 2025-11-27 | 57 | 697 | 363 | 145 | 183 | 858 |
-| last720d | 2024-12-02 | 91 | 1105 | 424 | 285 | 327 | 1169 |
+| 30d | 2026-10-24 | 11 | 87 | 97 | 24 | 61 | 112 |
+| last60d | 2026-09-24 | 11 | 157 | 173 | 34 | 80 | 225 |
+| 90d | 2026-08-25 | 16 | 214 | 215 | 42 | 96 | 280 |
+| last180d | 2026-05-27 | 37 | 391 | 285 | 89 | 134 | 501 |
+| 360d | 2025-11-28 | 58 | 697 | 365 | 156 | 183 | 860 |
+| last720d | 2024-12-03 | 92 | 1106 | 426 | 298 | 326 | 1170 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [redis-full.tar.gz](https://github.com/redis/redis/releases/download/8.10.3/redis-full.tar.gz) | 20.6 MiB | `native/unknown` |
+| [redis-full-8.12.0.tar.gz](https://github.com/redis/redis/releases/download/8.12.0/redis-full-8.12.0.tar.gz) | 23.2 MiB | `native/unknown` |
 
 ## Distribution status
 
-Reported by **234** distros on [repology.org](https://repology.org/project/redis). **25** are ✅ on the latest upstream release, **142** are ⚠️ on an older version.
+Reported by **234** distros on [repology.org](https://repology.org/project/redis). **3** are ✅ on the latest upstream release, **164** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -82,11 +82,11 @@ Reported by **234** distros on [repology.org](https://repology.org/project/redis
 | Debian 13 | `8.0.2` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `8.0.5` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `7.0.15` | ⚠️ outdated |
-| Homebrew | `8.10.3` | ✅ latest |
-| Nix unstable | `8.10.3` | ✅ latest |
+| Homebrew | `8.12.0` | ✅ latest |
+| Nix unstable | `8.10.3` | ⚠️ outdated |
 | Void | `8.8.2` | ⚠️ outdated |
 | Alpine edge | `8.8.1` | ⚠️ outdated |
-| openSUSE Tumbleweed | `8.10.3` | ✅ latest |
+| openSUSE Tumbleweed | `8.10.3` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -97,4 +97,4 @@ Install metadata for redis lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261122.yml` · 2026-11-22T05:11:41Z._
+_Snapshot: `data/card/261123.yml` · 2026-11-23T05:53:01Z._
