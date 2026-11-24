@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 24314056,
       "digest": "sha256:e9d9fb3a6e62960f064f5281fcb42e99692d2c420701d151fbe4327ff57e30bd",
-      "download_count": 109,
+      "download_count": 352,
       "created_at": "2026-11-22T12:51:55Z",
       "updated_at": "2026-11-22T12:51:56Z",
       "browser_download_url": "https://github.com/redis/redis/releases/download/8.12.0/redis-full-8.12.0.tar.gz"
@@ -78,13 +78,13 @@
   "body": "This is the General Availability release of Redis 8.12 in Redis Open Source.\r\n\r\n### Major changes compared to 8.10\r\n\r\n- Compressed bitmaps — Integrated redis-roaring into Redis core for lower memory usage and faster bitmap operations. \r\nSpecial thanks to Antonio Viggiano, the original creator of redis-roaring, for contributing this capability!\r\n- Substantial memory reduction for large sorted set with a new B+ tree encoding \r\n- New command: `BITRANGEINTARRAY` equivalent to redis-roaring’s `R.RANGEINTARRAY`, to return set bit offsets within a specified range\r\n- Set member expiration: New commands: `SEXPIRE`,`SPEXPIRE`,`SEXPIREAT`,`SPEXPIREAT` - set expiration of a Set member; `STTL`, `SPTTL`, `SEXPIRETIME`,`SPEXPIRETIME` - retrieve remaining TTLs or expiration timestamps; `SETPERSIST` - remove the expiration of members \r\n- New command: `BLESS` - avoid eviction of specified keys\r\n- New commands: `ZMOVE`, `BZMOVE` and ‘ZMOVEMEMBER‘ - atomic sorted-set moves for end-of-set batches and destination conditions \r\n- Count-min-sketch extensions\r\n- Auto create JSON deep path\r\n- Opt-in SQ8 new compression is now available for HNSW vector indexes\r\n- `CLUSTER MIGRATION STATUS` now reports progress for both the snapshot and incremental migration phases\r\n- Redis query engine: `FT.ALTER` avoids unnecessary document reindexing during schema additions\r\n- Redis query engine: `EXPLAINSCORE` is now supported for `FT.HYBRID`\r\n- Redis query engine: `RETURN_STRICT` timeout handling is now enabled for local `FT.HYBRID` execution\r\n\r\n### Bug fixes (compared to 8.12 RC-3)\r\n\r\n- #16252 HOTKEYS GET reported a wrong collection-duration-ms after 2^31 milliseconds\r\n- #16219 HPERSIST ignored a replicated or AOF persist of a field the local clock had already expired\r\n- #16207 Replicas misbehaved when replication compression was enabled\r\n- #16267 BITCOUNT returned wrong results on AArch64 for large dense bitmaps \r\n- #16081 Addresses and names announced on the cluster bus were accepted without validation \r\n- RedisTimeSeries/RedisTimeSeries#2234 Fix a crash when loading persisted compaction rules with an invalid aggregation type (MOD-20881).\r\n- RedisJSON/RedisJSON#1692 Fix JSON.ARRINSERT partially modifying arrays before returning a validation error (MOD-9116).\r\n- RedisBloom/RedisBloom#1090 Improve TopK write performance by initializing the seed generator once, reducing per-command random-seed generation overhead.\r\n",
   "reactions": {
     "url": "https://api.github.com/repos/redis/redis/releases/454445221/reactions",
-    "total_count": 1,
+    "total_count": 7,
     "+1": 0,
     "-1": 0,
     "laugh": 0,
-    "hooray": 1,
+    "hooray": 5,
     "confused": 0,
-    "heart": 0,
+    "heart": 2,
     "rocket": 0,
     "eyes": 0
   }
