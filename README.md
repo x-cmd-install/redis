@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 77,638 · **Forks**: 24,977 · **Open issues**: 7,200 · **Contributors**: 865
+- **Stars**: 77,711 · **Forks**: 24,975 · **Open issues**: 7,198 · **Contributors**: 864
 
 ## Totals (cumulative)
 
-- **Releases**: 166 · **Merged PRs**: 5013 · **Open PRs**: 822 · **Closed issues**: 4865 · **Open issues**: 2335 · **Commits**: 13471
+- **Releases**: 166 · **Merged PRs**: 5012 · **Open PRs**: 829 · **Closed issues**: 4864 · **Open issues**: 2334 · **Commits**: 13471
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 11 | 94 | 92 | 27 | 56 | 123 |
-| last60d | 2026-09-25 | 11 | 166 | 165 | 37 | 77 | 236 |
-| 90d | 2026-08-26 | 16 | 222 | 210 | 46 | 92 | 291 |
-| last180d | 2026-05-28 | 37 | 399 | 278 | 93 | 130 | 512 |
-| 360d | 2025-11-29 | 58 | 707 | 360 | 159 | 178 | 871 |
-| last720d | 2024-12-04 | 92 | 1115 | 421 | 301 | 322 | 1179 |
+| 30d | 2026-10-26 | 11 | 80 | 99 | 25 | 55 | 123 |
+| last60d | 2026-09-26 | 11 | 163 | 172 | 35 | 76 | 236 |
+| 90d | 2026-08-27 | 16 | 220 | 217 | 44 | 91 | 291 |
+| last180d | 2026-05-29 | 37 | 396 | 285 | 92 | 129 | 512 |
+| 360d | 2025-11-30 | 58 | 705 | 367 | 158 | 176 | 871 |
+| last720d | 2024-12-05 | 92 | 1114 | 428 | 300 | 321 | 1177 |
 
 ## Release assets
 
@@ -73,7 +73,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **234** distros on [repology.org](https://repology.org/project/redis). **6** are ✅ on the latest upstream release, **161** are ⚠️ on an older version.
+Reported by **233** distros on [repology.org](https://repology.org/project/redis). **8** are ✅ on the latest upstream release, **158** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -97,4 +97,4 @@ Install metadata for redis lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T08:29:22Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T07:03:49Z._
